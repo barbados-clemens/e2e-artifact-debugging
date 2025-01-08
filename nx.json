@@ -30,7 +30,9 @@
     { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } },
     { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
   ],
-  "targetDefaults": { "e2e-ci--**/*": { "dependsOn": ["^build"] } },
+  "targetDefaults": {
+    "e2e-ci--**/*": { "dependsOn": ["^build"], "parallelism": false }
+  },
   "generators": {
     "@nx/react": {
       "application": {
