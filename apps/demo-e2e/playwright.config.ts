@@ -28,7 +28,7 @@ export default defineConfig({
         outputFolder: reporterOutputDir,
       },
     ],
-    ['json', { outputFile: reporterOutputDir + 'results.json' }],
+    ['json', { outputFile: reporterOutputDir + '/results.json' }],
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
