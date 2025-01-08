@@ -19,6 +19,8 @@ const reporterOutputDir =
  */
 export default defineConfig({
   ...nxPreset,
+
+  outputDir: reporterOutputDir,
   reporter: [
     [
       'html',
