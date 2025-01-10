@@ -50,7 +50,7 @@
       "library": { "style": "css", "linter": "eslint" }
     }
   },
-  "bust": 2,
+  "bust": 3,
   "nxCloudId": "677ed7ec17752919c757ba58",
   "nxCloudUrl": "https://staging.nx.app"
 }
